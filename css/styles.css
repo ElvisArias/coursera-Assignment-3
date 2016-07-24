@@ -1,0 +1,126 @@
+body{
+	font-size: 16px;
+	background-color: #E4EDED;
+	color: black;	
+	padding-top: 120px;
+}
+
+/*navbar*/
+
+#nav-header{
+	background-color: #c6b9c2;
+	height: 125px;
+	border-radius: 2px ;
+	border: 2px;
+}
+
+.navbar-brand{
+	padding-bottom: 25px;
+}
+
+.navbar-brand h1{
+	color: black;	
+	font-family: 'Oxygen', sans-serif;
+	float: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+#button{
+	margin-top: 40px;
+}
+
+#nav-list{
+	margin-top: 9px;
+}
+
+#nav-list a{
+	/*text-align: center;*/ /*CHANGED BY A BOOTSTRAP CLASS */
+	background-color: #c6b9c2;
+}
+
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+
+.navbar-header button.navbar-toogle, .navbar-header .icon-bar{
+	border: 1px solid #000000;
+}
+
+#nav-list a span{
+	font-size: 1.4em;
+}
+
+/*End Navbar*/
+
+/**** Main Content ****/
+
+/**title**/
+#main-content h1{
+	text-align: center;
+}
+
+/**box**/
+#box{
+	height: 700px;
+	background-color: #c6b9c2;
+	overflow: hidden;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+/**box title**/
+#box h3{
+	/*text-align: center;*/
+}
+
+#box p{
+	margin-right: 7px;
+	margin-left: 7px;
+}
+
+/**** End of Main Content ****/
+
+
+
+
+/********************************* THIS WASN'T THAT NECESSARY TOO USE **********************************/
+/*************************************** Responsive Layout Part ***************************************/
+
+/********** Large devices only **********/
+@media(min-width: 1200px){
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (min-width: 991px){
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px){
+
+	.col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+/********************************* End of Responsive Layout Part *********************************
